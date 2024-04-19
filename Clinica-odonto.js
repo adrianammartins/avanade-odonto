@@ -212,4 +212,4 @@ if(verificarDisponibilidade(agenda3.data, agenda3.horario)) {
     console.log(`Consulta agendada para ${agenda3.data} às ${agenda3.horario} para o paciente ${agenda3.nome}.`);
 } else {
     console.log(`Desculpe, o horário ${agenda3.horario} na data ${agenda3.data} não está disponível.`);
-}
+} 
